@@ -72,7 +72,7 @@ public class Arm  {
     }
 
 
-    void teleOp(){
+    public void teleOp(){
         double time = delayTimer.seconds();
 
         double tClawPosition = tClaw.getPosition();

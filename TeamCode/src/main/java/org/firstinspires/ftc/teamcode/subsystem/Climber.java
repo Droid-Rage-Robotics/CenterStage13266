@@ -42,7 +42,7 @@ public class Climber {
     }
 
 
-    void teleOp() {
+    public void teleOp() {
         double rightstick = -gamepad2.right_stick_y;
 
         if (rightstick < 0.1 || rightstick > -0.1) {

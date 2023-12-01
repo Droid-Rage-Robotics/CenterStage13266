@@ -1,5 +1,8 @@
 package org.firstinspires.ftc.teamcode.subsystem;
 
+import static org.firstinspires.ftc.teamcode.subsystem.DriveConstants.MAX_ACCEL;
+import static org.firstinspires.ftc.teamcode.subsystem.DriveConstants.MAX_ANG_ACCEL;
+import static org.firstinspires.ftc.teamcode.subsystem.DriveConstants.MAX_ANG_VEL;
 import static org.firstinspires.ftc.teamcode.subsystem.DriveConstants.MAX_VEL;
 import static org.firstinspires.ftc.teamcode.subsystem.DriveConstants.MOTOR_VELO_PID;
 import static org.firstinspires.ftc.teamcode.subsystem.DriveConstants.RUN_USING_ENCODER;
@@ -42,7 +45,6 @@ import org.firstinspires.ftc.teamcode.util.LynxModuleUtil;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import org.firstinspires.ftc.teamcode.subsystem.DriveConstants.kA;
 
 /*
  * Simple mecanum drive hardware implementation for REV hardware.
